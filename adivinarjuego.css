@@ -37,13 +37,40 @@ text-align: center;
 color: antiquewhite;
 background-color: blue;
 display: inline-block;
-margin-top: 20px;
+margin-top:  20px;
+padding: 10px 20px;
+transition: 0.3s ease;
+font-weight: bold;
+border-radius: 8px;
+text-decoration: none;
 }
-a :hover
+a:hover
 {
-    color:chartreuse
+    color:rgb(255, 145, 0);
+    transform: scale(1.1);
+    
 }
 h1,p,a
 {
 font-size: x-large;
+}
+section
+{
+background: linear-gradient(135deg,#8b6cd4, #220d55 );
+}
+button
+{
+transition: 0.3s ease;
+
+}
+button:hover
+{
+    color:rgb(255, 145, 0);
+    transform: scale(1.1);
+    
+}
+input:focus
+{
+background-color: #a04242;
+color: yellow;
 }
