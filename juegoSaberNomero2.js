@@ -25,6 +25,9 @@ if (rand === numero) {
     tuNumero.textContent="tu nomero es"+numero;
     ordenador.textContent="soy el ordenador mi numero es"+rand;
     resultado.textContent="woooow es lo mismo vamos a disftutar";
+    
 
+
+    
 }
 }
